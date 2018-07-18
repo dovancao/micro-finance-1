@@ -23,8 +23,10 @@ $ truffle migrate --reset && truffle test
 # Migrate
 
 cd contract
+
 truffle.cmd migrate --network infura --reset
 
 # Run Nodejs
 cd node
+
 node index.js
